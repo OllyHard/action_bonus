@@ -6,7 +6,7 @@ public class Bonus {
         int transfer = 1200;
         int bonus = 0;
         if (transfer > 1000) {
-            bonus = transfer * 1 / 100;
+            bonus = transfer / 100;
         }
         int total = currentBalance + transfer + bonus;
         System.out.println(bonus);
